@@ -1,0 +1,2364 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet 1 (MLS 2023 Team Season Data)' inline='true' name='federated.01fby531j8qpet16rh5zs04w4hkt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MLS 2023 Team Season Data' name='excel-direct.0mnwuzu08qdrwh1cjd7v206d2np8'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/wills/OneDrive/Documents/NYCFC Project/MLS 2023 Team Season Data.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0mnwuzu08qdrwh1cjd7v206d2np8' name='Sheet 1' table='[&apos;Sheet 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:DD30:no:A1:DD30:1' header='yes' lost='0' outcome='1' processed='3102'>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='real' name='Aerials Won %' ordinal='1' />
+            <column datatype='real' name='Attacking Third Dominance' ordinal='2' />
+            <column datatype='real' name='Average Chance Quality' ordinal='3' />
+            <column datatype='real' name='Average Number of Passes in Build-Up' ordinal='4' />
+            <column datatype='integer' name='Away Score' ordinal='5' />
+            <column datatype='real' name='Defensive Action Distance (Average)' ordinal='6' />
+            <column datatype='integer' name='Defensive Actions' ordinal='7' />
+            <column datatype='real' name='Dribbles per 60&apos; In possession' ordinal='8' />
+            <column datatype='real' name='Expected Goals Difference' ordinal='9' />
+            <column datatype='real' name='Expected Goals from Corners (6s)' ordinal='10' />
+            <column datatype='real' name='Expected Goals from Counters' ordinal='11' />
+            <column datatype='real' name='Expected Goals from Regains in the Attacking Third' ordinal='12' />
+            <column datatype='real' name='Expected Goals from Regains in the Opposition Half' ordinal='13' />
+            <column datatype='real' name='Expected Goals from Set Pieces (6s)' ordinal='14' />
+            <column datatype='integer' name='Goals Difference' ordinal='15' />
+            <column datatype='integer' name='Goals from Corners (6s)' ordinal='16' />
+            <column datatype='integer' name='Goals from Set Pieces (6s)' ordinal='17' />
+            <column datatype='integer' name='Home Score' ordinal='18' />
+            <column datatype='integer' name='Match Points' ordinal='19' />
+            <column datatype='real' name='Non-Penalty Expected Goals (Per Game)' ordinal='20' />
+            <column datatype='real' name='Non-Penalty Expected Goals (Total)' ordinal='21' />
+            <column datatype='integer' name='Number Of Possessions' ordinal='22' />
+            <column datatype='integer' name='Number of Offsides' ordinal='23' />
+            <column datatype='integer' name='Number of Possession Regains' ordinal='24' />
+            <column datatype='integer' name='Number of Possession Regains in the Attacking Third' ordinal='25' />
+            <column datatype='integer' name='Number of Possession Regains in the Mid-Third' ordinal='26' />
+            <column datatype='integer' name='Number of Possession Regains in the Opposition Half' ordinal='27' />
+            <column datatype='integer' name='Number of Possessions Ended in the Attacking Third' ordinal='28' />
+            <column datatype='integer' name='Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='29' />
+            <column datatype='integer' name='Open Play Goal from Outside Penalty Area' ordinal='30' />
+            <column datatype='real' name='Opposition Average Chance Quality' ordinal='31' />
+            <column datatype='real' name='Opposition Defensive Action Distance (Average)' ordinal='32' />
+            <column datatype='real' name='Opposition Expected Goals from Corners (6s)' ordinal='33' />
+            <column datatype='real' name='Opposition Expected Goals from Counters' ordinal='34' />
+            <column datatype='real' name='Opposition Expected Goals from Regains in the Attacking Third' ordinal='35' />
+            <column datatype='real' name='Opposition Expected Goals from Regains in the Opposition Half' ordinal='36' />
+            <column datatype='real' name='Opposition Expected Goals from Set Pieces (6s)' ordinal='37' />
+            <column datatype='integer' name='Opposition Goals' ordinal='38' />
+            <column datatype='integer' name='Opposition Goals from Corners (6s)' ordinal='39' />
+            <column datatype='integer' name='Opposition Goals from Set Pieces (6s)' ordinal='40' />
+            <column datatype='real' name='Opposition Non-Penalty Expected Goals (Per Game)' ordinal='41' />
+            <column datatype='real' name='Opposition Non-Penalty Expected Goals (Total)' ordinal='42' />
+            <column datatype='integer' name='Opposition Number Of Possessions' ordinal='43' />
+            <column datatype='integer' name='Opposition Number of Offsides' ordinal='44' />
+            <column datatype='integer' name='Opposition Number of Possession Regains' ordinal='45' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Attacking Third' ordinal='46' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Mid-Third' ordinal='47' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Opposition Half' ordinal='48' />
+            <column datatype='integer' name='Opposition Number of Possessions Ended in the Attacking Third' ordinal='49' />
+            <column datatype='integer' name='Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='50' />
+            <column datatype='integer' name='Opposition Open Play Goal from Outside Penalty Area' ordinal='51' />
+            <column datatype='integer' name='Opposition Own Goal' ordinal='52' />
+            <column datatype='real' name='Opposition Pressure Distance (Average)' ordinal='53' />
+            <column datatype='integer' name='Games Played' ordinal='54' />
+            <column datatype='integer' name='Opposition Red Cards' ordinal='55' />
+            <column datatype='integer' name='Opposition Shots from Set Pieces (6s)' ordinal='56' />
+            <column datatype='real' name='Opposition Time In Possession' ordinal='57' />
+            <column datatype='integer' name='Opposition Yellow Cards' ordinal='58' />
+            <column datatype='integer' name='Own Goal' ordinal='59' />
+            <column datatype='real' name='Passes per minute in Possession' ordinal='60' />
+            <column datatype='real' name='Penalty Area Entries via Crosses %' ordinal='61' />
+            <column datatype='real' name='Possession %' ordinal='62' />
+            <column datatype='real' name='Pressure Distance (Average)' ordinal='63' />
+            <column datatype='real' name='Pressures in Attacking Third %' ordinal='64' />
+            <column datatype='real' name='Pressures in Attacking Third per Opposition Pass' ordinal='65' />
+            <column datatype='real' name='Pressures in Defensive Third per Opposition Pass' ordinal='66' />
+            <column datatype='real' name='Pressures in Mid-Third per Opposition Pass' ordinal='67' />
+            <column datatype='real' name='Pressures per Opposition Pass' ordinal='68' />
+            <column datatype='real' name='Progressive Distance Via Passes %' ordinal='69' />
+            <column datatype='integer' name='Red Cards' ordinal='70' />
+            <column datatype='real' name='Reliance on Long Balls' ordinal='71' />
+            <column datatype='integer' name='Sum of Shot (Free Kick Direct)' ordinal='72' />
+            <column datatype='integer' name='Sum of Shot (Head)' ordinal='73' />
+            <column datatype='real' name='Shot (Off Dribble)' ordinal='74' />
+            <column datatype='integer' name='Sum of Shot (Off Target)' ordinal='75' />
+            <column datatype='integer' name='Sum of Shot (On Target)' ordinal='76' />
+            <column datatype='integer' name='Sum of Shot (Open Play from Outside Penalty Area)' ordinal='77' />
+            <column datatype='integer' name='Sum of Shot (Open Play)' ordinal='78' />
+            <column datatype='integer' name='Sum of Shot (Penalty)' ordinal='79' />
+            <column datatype='integer' name='Sum of Shot (Post)' ordinal='80' />
+            <column datatype='integer' name='Sum of Shot (Saved)' ordinal='81' />
+            <column datatype='integer' name='Sum of Shot Assisting Pass' ordinal='82' />
+            <column datatype='integer' name='Sum of Shot Under Pressure' ordinal='83' />
+            <column datatype='integer' name='Sum of Shot from Direct Freekick' ordinal='84' />
+            <column datatype='integer' name='Sum of Shot from Free Kick' ordinal='85' />
+            <column datatype='integer' name='Sum of Shot from Goal Kick' ordinal='86' />
+            <column datatype='integer' name='Sum of Shot from Keeper' ordinal='87' />
+            <column datatype='integer' name='Sum of Shot from Regular Play' ordinal='88' />
+            <column datatype='integer' name='Sum of Shot from Throw In' ordinal='89' />
+            <column datatype='real' name='Shots From Counters (% of Total)' ordinal='90' />
+            <column datatype='integer' name='Sum of Shots from Corners (6s)' ordinal='91' />
+            <column datatype='integer' name='Sum of Shots from Counter' ordinal='92' />
+            <column datatype='real' name='Shots from Outside Penalty Area (% of Total)' ordinal='93' />
+            <column datatype='integer' name='Shots from Set Pieces (6s)' ordinal='94' />
+            <column datatype='real' name='Successful Passes Per Opposition Pressure' ordinal='95' />
+            <column datatype='real' name='Successful Passes per Possession' ordinal='96' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Attacking Third' ordinal='97' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Defensive Third' ordinal='98' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Mid-Third' ordinal='99' />
+            <column datatype='integer' name='Sum of Switch Pass' ordinal='100' />
+            <column datatype='integer' name='Sum of Switch Pass (Successful)' ordinal='101' />
+            <column datatype='integer' name='Sum of Tackles' ordinal='102' />
+            <column datatype='real' name='Tackles Won %' ordinal='103' />
+            <column datatype='integer' name='Team Goals' ordinal='104' />
+            <column datatype='real' name='Sum of Time In Possession' ordinal='105' />
+            <column datatype='integer' name='Sum of Total Pass Distance' ordinal='106' />
+            <column datatype='integer' name='Yellow Cards' ordinal='107' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0mnwuzu08qdrwh1cjd7v206d2np8' name='Sheet 1' table='[&apos;Sheet 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:DD30:no:A1:DD30:1' header='yes' lost='0' outcome='1' processed='3102'>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='real' name='Aerials Won %' ordinal='1' />
+            <column datatype='real' name='Attacking Third Dominance' ordinal='2' />
+            <column datatype='real' name='Average Chance Quality' ordinal='3' />
+            <column datatype='real' name='Average Number of Passes in Build-Up' ordinal='4' />
+            <column datatype='integer' name='Away Score' ordinal='5' />
+            <column datatype='real' name='Defensive Action Distance (Average)' ordinal='6' />
+            <column datatype='integer' name='Defensive Actions' ordinal='7' />
+            <column datatype='real' name='Dribbles per 60&apos; In possession' ordinal='8' />
+            <column datatype='real' name='Expected Goals Difference' ordinal='9' />
+            <column datatype='real' name='Expected Goals from Corners (6s)' ordinal='10' />
+            <column datatype='real' name='Expected Goals from Counters' ordinal='11' />
+            <column datatype='real' name='Expected Goals from Regains in the Attacking Third' ordinal='12' />
+            <column datatype='real' name='Expected Goals from Regains in the Opposition Half' ordinal='13' />
+            <column datatype='real' name='Expected Goals from Set Pieces (6s)' ordinal='14' />
+            <column datatype='integer' name='Goals Difference' ordinal='15' />
+            <column datatype='integer' name='Goals from Corners (6s)' ordinal='16' />
+            <column datatype='integer' name='Goals from Set Pieces (6s)' ordinal='17' />
+            <column datatype='integer' name='Home Score' ordinal='18' />
+            <column datatype='integer' name='Match Points' ordinal='19' />
+            <column datatype='real' name='Non-Penalty Expected Goals (Per Game)' ordinal='20' />
+            <column datatype='real' name='Non-Penalty Expected Goals (Total)' ordinal='21' />
+            <column datatype='integer' name='Number Of Possessions' ordinal='22' />
+            <column datatype='integer' name='Number of Offsides' ordinal='23' />
+            <column datatype='integer' name='Number of Possession Regains' ordinal='24' />
+            <column datatype='integer' name='Number of Possession Regains in the Attacking Third' ordinal='25' />
+            <column datatype='integer' name='Number of Possession Regains in the Mid-Third' ordinal='26' />
+            <column datatype='integer' name='Number of Possession Regains in the Opposition Half' ordinal='27' />
+            <column datatype='integer' name='Number of Possessions Ended in the Attacking Third' ordinal='28' />
+            <column datatype='integer' name='Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='29' />
+            <column datatype='integer' name='Open Play Goal from Outside Penalty Area' ordinal='30' />
+            <column datatype='real' name='Opposition Average Chance Quality' ordinal='31' />
+            <column datatype='real' name='Opposition Defensive Action Distance (Average)' ordinal='32' />
+            <column datatype='real' name='Opposition Expected Goals from Corners (6s)' ordinal='33' />
+            <column datatype='real' name='Opposition Expected Goals from Counters' ordinal='34' />
+            <column datatype='real' name='Opposition Expected Goals from Regains in the Attacking Third' ordinal='35' />
+            <column datatype='real' name='Opposition Expected Goals from Regains in the Opposition Half' ordinal='36' />
+            <column datatype='real' name='Opposition Expected Goals from Set Pieces (6s)' ordinal='37' />
+            <column datatype='integer' name='Opposition Goals' ordinal='38' />
+            <column datatype='integer' name='Opposition Goals from Corners (6s)' ordinal='39' />
+            <column datatype='integer' name='Opposition Goals from Set Pieces (6s)' ordinal='40' />
+            <column datatype='real' name='Opposition Non-Penalty Expected Goals (Per Game)' ordinal='41' />
+            <column datatype='real' name='Opposition Non-Penalty Expected Goals (Total)' ordinal='42' />
+            <column datatype='integer' name='Opposition Number Of Possessions' ordinal='43' />
+            <column datatype='integer' name='Opposition Number of Offsides' ordinal='44' />
+            <column datatype='integer' name='Opposition Number of Possession Regains' ordinal='45' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Attacking Third' ordinal='46' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Mid-Third' ordinal='47' />
+            <column datatype='integer' name='Opposition Number of Possession Regains in the Opposition Half' ordinal='48' />
+            <column datatype='integer' name='Opposition Number of Possessions Ended in the Attacking Third' ordinal='49' />
+            <column datatype='integer' name='Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='50' />
+            <column datatype='integer' name='Opposition Open Play Goal from Outside Penalty Area' ordinal='51' />
+            <column datatype='integer' name='Opposition Own Goal' ordinal='52' />
+            <column datatype='real' name='Opposition Pressure Distance (Average)' ordinal='53' />
+            <column datatype='integer' name='Games Played' ordinal='54' />
+            <column datatype='integer' name='Opposition Red Cards' ordinal='55' />
+            <column datatype='integer' name='Opposition Shots from Set Pieces (6s)' ordinal='56' />
+            <column datatype='real' name='Opposition Time In Possession' ordinal='57' />
+            <column datatype='integer' name='Opposition Yellow Cards' ordinal='58' />
+            <column datatype='integer' name='Own Goal' ordinal='59' />
+            <column datatype='real' name='Passes per minute in Possession' ordinal='60' />
+            <column datatype='real' name='Penalty Area Entries via Crosses %' ordinal='61' />
+            <column datatype='real' name='Possession %' ordinal='62' />
+            <column datatype='real' name='Pressure Distance (Average)' ordinal='63' />
+            <column datatype='real' name='Pressures in Attacking Third %' ordinal='64' />
+            <column datatype='real' name='Pressures in Attacking Third per Opposition Pass' ordinal='65' />
+            <column datatype='real' name='Pressures in Defensive Third per Opposition Pass' ordinal='66' />
+            <column datatype='real' name='Pressures in Mid-Third per Opposition Pass' ordinal='67' />
+            <column datatype='real' name='Pressures per Opposition Pass' ordinal='68' />
+            <column datatype='real' name='Progressive Distance Via Passes %' ordinal='69' />
+            <column datatype='integer' name='Red Cards' ordinal='70' />
+            <column datatype='real' name='Reliance on Long Balls' ordinal='71' />
+            <column datatype='integer' name='Sum of Shot (Free Kick Direct)' ordinal='72' />
+            <column datatype='integer' name='Sum of Shot (Head)' ordinal='73' />
+            <column datatype='real' name='Shot (Off Dribble)' ordinal='74' />
+            <column datatype='integer' name='Sum of Shot (Off Target)' ordinal='75' />
+            <column datatype='integer' name='Sum of Shot (On Target)' ordinal='76' />
+            <column datatype='integer' name='Sum of Shot (Open Play from Outside Penalty Area)' ordinal='77' />
+            <column datatype='integer' name='Sum of Shot (Open Play)' ordinal='78' />
+            <column datatype='integer' name='Sum of Shot (Penalty)' ordinal='79' />
+            <column datatype='integer' name='Sum of Shot (Post)' ordinal='80' />
+            <column datatype='integer' name='Sum of Shot (Saved)' ordinal='81' />
+            <column datatype='integer' name='Sum of Shot Assisting Pass' ordinal='82' />
+            <column datatype='integer' name='Sum of Shot Under Pressure' ordinal='83' />
+            <column datatype='integer' name='Sum of Shot from Direct Freekick' ordinal='84' />
+            <column datatype='integer' name='Sum of Shot from Free Kick' ordinal='85' />
+            <column datatype='integer' name='Sum of Shot from Goal Kick' ordinal='86' />
+            <column datatype='integer' name='Sum of Shot from Keeper' ordinal='87' />
+            <column datatype='integer' name='Sum of Shot from Regular Play' ordinal='88' />
+            <column datatype='integer' name='Sum of Shot from Throw In' ordinal='89' />
+            <column datatype='real' name='Shots From Counters (% of Total)' ordinal='90' />
+            <column datatype='integer' name='Sum of Shots from Corners (6s)' ordinal='91' />
+            <column datatype='integer' name='Sum of Shots from Counter' ordinal='92' />
+            <column datatype='real' name='Shots from Outside Penalty Area (% of Total)' ordinal='93' />
+            <column datatype='integer' name='Shots from Set Pieces (6s)' ordinal='94' />
+            <column datatype='real' name='Successful Passes Per Opposition Pressure' ordinal='95' />
+            <column datatype='real' name='Successful Passes per Possession' ordinal='96' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Attacking Third' ordinal='97' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Defensive Third' ordinal='98' />
+            <column datatype='integer' name='Sum of Successful Pressures in the Mid-Third' ordinal='99' />
+            <column datatype='integer' name='Sum of Switch Pass' ordinal='100' />
+            <column datatype='integer' name='Sum of Switch Pass (Successful)' ordinal='101' />
+            <column datatype='integer' name='Sum of Tackles' ordinal='102' />
+            <column datatype='real' name='Tackles Won %' ordinal='103' />
+            <column datatype='integer' name='Team Goals' ordinal='104' />
+            <column datatype='real' name='Sum of Time In Possession' ordinal='105' />
+            <column datatype='integer' name='Sum of Total Pass Distance' ordinal='106' />
+            <column datatype='integer' name='Yellow Cards' ordinal='107' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:DD30:no:A1:DD30:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3102</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aerials Won %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aerials Won %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Aerials Won %</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Attacking Third Dominance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Attacking Third Dominance]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Attacking Third Dominance</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Chance Quality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Chance Quality]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Average Chance Quality</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Number of Passes in Build-Up</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Number of Passes in Build-Up]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Average Number of Passes in Build-Up</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Away Score]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Away Score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Defensive Action Distance (Average)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Defensive Action Distance (Average)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Defensive Action Distance (Average)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Defensive Actions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Defensive Actions]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Defensive Actions</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dribbles per 60&apos; In possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dribbles per 60&apos; In possession]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Dribbles per 60&apos; In possession</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals Difference</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals Difference]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals Difference</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals from Corners (6s)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals from Corners (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals from Corners (6s)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals from Counters</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals from Counters]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals from Counters</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals from Regains in the Attacking Third</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals from Regains in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals from Regains in the Attacking Third</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals from Regains in the Opposition Half</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals from Regains in the Opposition Half]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals from Regains in the Opposition Half</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expected Goals from Set Pieces (6s)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Expected Goals from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Expected Goals from Set Pieces (6s)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals Difference</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals Difference]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Goals Difference</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals from Corners (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals from Corners (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Goals from Corners (6s)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals from Set Pieces (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Goals from Set Pieces (6s)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Home Score]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Home Score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match Points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Match Points]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Match Points</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-Penalty Expected Goals (Per Game)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-Penalty Expected Goals (Per Game)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Non-Penalty Expected Goals (Per Game)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-Penalty Expected Goals (Total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-Penalty Expected Goals (Total)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Non-Penalty Expected Goals (Total)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number Of Possessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Of Possessions]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number Of Possessions</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Offsides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Offsides]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Offsides</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possession Regains</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possession Regains]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possession Regains</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possession Regains in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possession Regains in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possession Regains in the Attacking Third</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possession Regains in the Mid-Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possession Regains in the Mid-Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possession Regains in the Mid-Third</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possession Regains in the Opposition Half</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possession Regains in the Opposition Half]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possession Regains in the Opposition Half</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possessions Ended in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possessions Ended in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possessions Ended in the Attacking Third</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Possessions Started in the Defensive Third and Ended in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Possessions Started in the Defensive Third and Ended in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Number of Possessions Started in the Defensive Third and Ended in the Attacking Third</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open Play Goal from Outside Penalty Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Open Play Goal from Outside Penalty Area]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Open Play Goal from Outside Penalty Area</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Average Chance Quality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Average Chance Quality]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Average Chance Quality</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Defensive Action Distance (Average)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Defensive Action Distance (Average)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Defensive Action Distance (Average)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Expected Goals from Corners (6s)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Expected Goals from Corners (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Expected Goals from Corners (6s)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Expected Goals from Counters</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Expected Goals from Counters]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Expected Goals from Counters</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Expected Goals from Regains in the Attacking Third</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Expected Goals from Regains in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Expected Goals from Regains in the Attacking Third</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Expected Goals from Regains in the Opposition Half</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Expected Goals from Regains in the Opposition Half]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Expected Goals from Regains in the Opposition Half</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Expected Goals from Set Pieces (6s)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Expected Goals from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Expected Goals from Set Pieces (6s)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Goals]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Goals</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Goals from Corners (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Goals from Corners (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Goals from Corners (6s)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Goals from Set Pieces (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Goals from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Goals from Set Pieces (6s)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Non-Penalty Expected Goals (Per Game)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Non-Penalty Expected Goals (Per Game)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Non-Penalty Expected Goals (Per Game)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Non-Penalty Expected Goals (Total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Non-Penalty Expected Goals (Total)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Non-Penalty Expected Goals (Total)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number Of Possessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number Of Possessions]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number Of Possessions</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Offsides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Offsides]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Offsides</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possession Regains</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possession Regains]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possession Regains</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possession Regains in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possession Regains in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possession Regains in the Attacking Third</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possession Regains in the Mid-Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possession Regains in the Mid-Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possession Regains in the Mid-Third</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possession Regains in the Opposition Half</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possession Regains in the Opposition Half]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possession Regains in the Opposition Half</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possessions Ended in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possessions Ended in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possessions Ended in the Attacking Third</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Open Play Goal from Outside Penalty Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Open Play Goal from Outside Penalty Area]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Open Play Goal from Outside Penalty Area</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Own Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Own Goal]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Own Goal</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Pressure Distance (Average)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Pressure Distance (Average)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Pressure Distance (Average)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games Played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games Played]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Games Played</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Red Cards]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Red Cards</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Shots from Set Pieces (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Shots from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Shots from Set Pieces (6s)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Time In Possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Opposition Time In Possession]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Time In Possession</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opposition Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opposition Yellow Cards]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Opposition Yellow Cards</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Own Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Own Goal]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Own Goal</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passes per minute in Possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Passes per minute in Possession]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Passes per minute in Possession</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalty Area Entries via Crosses %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Penalty Area Entries via Crosses %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Penalty Area Entries via Crosses %</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Possession %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Possession %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Possession %</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressure Distance (Average)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressure Distance (Average)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressure Distance (Average)</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressures in Attacking Third %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressures in Attacking Third %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressures in Attacking Third %</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressures in Attacking Third per Opposition Pass</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressures in Attacking Third per Opposition Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressures in Attacking Third per Opposition Pass</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressures in Defensive Third per Opposition Pass</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressures in Defensive Third per Opposition Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressures in Defensive Third per Opposition Pass</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressures in Mid-Third per Opposition Pass</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressures in Mid-Third per Opposition Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressures in Mid-Third per Opposition Pass</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressures per Opposition Pass</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressures per Opposition Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Pressures per Opposition Pass</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Progressive Distance Via Passes %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Progressive Distance Via Passes %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Progressive Distance Via Passes %</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Cards]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Red Cards</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reliance on Long Balls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reliance on Long Balls]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Reliance on Long Balls</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Free Kick Direct)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Free Kick Direct)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Free Kick Direct)</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Head)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Head)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Head)</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shot (Off Dribble)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shot (Off Dribble)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Shot (Off Dribble)</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Off Target)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Off Target)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Off Target)</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (On Target)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (On Target)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (On Target)</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Open Play from Outside Penalty Area)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Open Play from Outside Penalty Area)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Open Play from Outside Penalty Area)</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Open Play)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Open Play)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Open Play)</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Penalty)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Penalty)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Penalty)</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Post)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Post)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Post)</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot (Saved)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot (Saved)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot (Saved)</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot Assisting Pass</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot Assisting Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot Assisting Pass</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot Under Pressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot Under Pressure]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot Under Pressure</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Direct Freekick</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Direct Freekick]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Direct Freekick</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Free Kick</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Free Kick]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Free Kick</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Goal Kick</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Goal Kick]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Goal Kick</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Keeper</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Keeper]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Keeper</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Regular Play</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Regular Play]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Regular Play</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shot from Throw In</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shot from Throw In]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shot from Throw In</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots From Counters (% of Total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shots From Counters (% of Total)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Shots From Counters (% of Total)</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shots from Corners (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shots from Corners (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shots from Corners (6s)</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Shots from Counter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Shots from Counter]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Shots from Counter</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots from Outside Penalty Area (% of Total)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shots from Outside Penalty Area (% of Total)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Shots from Outside Penalty Area (% of Total)</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots from Set Pieces (6s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots from Set Pieces (6s)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Shots from Set Pieces (6s)</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful Passes Per Opposition Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Successful Passes Per Opposition Pressure]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Successful Passes Per Opposition Pressure</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful Passes per Possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Successful Passes per Possession]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Successful Passes per Possession</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Successful Pressures in the Attacking Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Successful Pressures in the Attacking Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Successful Pressures in the Attacking Third</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Successful Pressures in the Defensive Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Successful Pressures in the Defensive Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Successful Pressures in the Defensive Third</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Successful Pressures in the Mid-Third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Successful Pressures in the Mid-Third]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Successful Pressures in the Mid-Third</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Switch Pass</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Switch Pass]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Switch Pass</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Switch Pass (Successful)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Switch Pass (Successful)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Switch Pass (Successful)</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Tackles]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Tackles</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles Won %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tackles Won %]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Tackles Won %</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Team Goals]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Team Goals</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Time In Possession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sum of Time In Possession]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Time In Possession</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sum of Total Pass Distance</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sum of Total Pass Distance]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Sum of Total Pass Distance</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Cards]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Yellow Cards</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet 1' datatype='table' name='[__tableau_internal_object_id__].[Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C]' role='measure' type='quantitative' />
+      <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Team:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;DC United&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vancouver Whitecaps&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Atlanta United&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Philadelphia Union&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cincinnati&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SJ Earthquakes&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Los Angeles&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Houston Dynamo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Colorado Rapids&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sporting KC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;New York RB&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Austin&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Portland Timbers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;New England&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Columbus Crew&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;St. Louis City&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Minnesota United&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Montréal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;New York City&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Orlando City&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Inter Miami&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dallas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Toronto&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Charlotte&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Real Salt Lake&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nashville SC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LA Galaxy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chicago Fire&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Seattle Sounders&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet 1' id='Sheet 1_DEFB3CACD1D94DCCA01DF730B75C613C'>
+            <properties context=''>
+              <relation connection='excel-direct.0mnwuzu08qdrwh1cjd7v206d2np8' name='Sheet 1' table='[&apos;Sheet 1$&apos;]' type='table'>
+                <columns gridOrigin='A1:DD30:no:A1:DD30:1' header='yes' lost='0' outcome='1' processed='3102'>
+                  <column datatype='string' name='Team' ordinal='0' />
+                  <column datatype='real' name='Aerials Won %' ordinal='1' />
+                  <column datatype='real' name='Attacking Third Dominance' ordinal='2' />
+                  <column datatype='real' name='Average Chance Quality' ordinal='3' />
+                  <column datatype='real' name='Average Number of Passes in Build-Up' ordinal='4' />
+                  <column datatype='integer' name='Away Score' ordinal='5' />
+                  <column datatype='real' name='Defensive Action Distance (Average)' ordinal='6' />
+                  <column datatype='integer' name='Defensive Actions' ordinal='7' />
+                  <column datatype='real' name='Dribbles per 60&apos; In possession' ordinal='8' />
+                  <column datatype='real' name='Expected Goals Difference' ordinal='9' />
+                  <column datatype='real' name='Expected Goals from Corners (6s)' ordinal='10' />
+                  <column datatype='real' name='Expected Goals from Counters' ordinal='11' />
+                  <column datatype='real' name='Expected Goals from Regains in the Attacking Third' ordinal='12' />
+                  <column datatype='real' name='Expected Goals from Regains in the Opposition Half' ordinal='13' />
+                  <column datatype='real' name='Expected Goals from Set Pieces (6s)' ordinal='14' />
+                  <column datatype='integer' name='Goals Difference' ordinal='15' />
+                  <column datatype='integer' name='Goals from Corners (6s)' ordinal='16' />
+                  <column datatype='integer' name='Goals from Set Pieces (6s)' ordinal='17' />
+                  <column datatype='integer' name='Home Score' ordinal='18' />
+                  <column datatype='integer' name='Match Points' ordinal='19' />
+                  <column datatype='real' name='Non-Penalty Expected Goals (Per Game)' ordinal='20' />
+                  <column datatype='real' name='Non-Penalty Expected Goals (Total)' ordinal='21' />
+                  <column datatype='integer' name='Number Of Possessions' ordinal='22' />
+                  <column datatype='integer' name='Number of Offsides' ordinal='23' />
+                  <column datatype='integer' name='Number of Possession Regains' ordinal='24' />
+                  <column datatype='integer' name='Number of Possession Regains in the Attacking Third' ordinal='25' />
+                  <column datatype='integer' name='Number of Possession Regains in the Mid-Third' ordinal='26' />
+                  <column datatype='integer' name='Number of Possession Regains in the Opposition Half' ordinal='27' />
+                  <column datatype='integer' name='Number of Possessions Ended in the Attacking Third' ordinal='28' />
+                  <column datatype='integer' name='Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='29' />
+                  <column datatype='integer' name='Open Play Goal from Outside Penalty Area' ordinal='30' />
+                  <column datatype='real' name='Opposition Average Chance Quality' ordinal='31' />
+                  <column datatype='real' name='Opposition Defensive Action Distance (Average)' ordinal='32' />
+                  <column datatype='real' name='Opposition Expected Goals from Corners (6s)' ordinal='33' />
+                  <column datatype='real' name='Opposition Expected Goals from Counters' ordinal='34' />
+                  <column datatype='real' name='Opposition Expected Goals from Regains in the Attacking Third' ordinal='35' />
+                  <column datatype='real' name='Opposition Expected Goals from Regains in the Opposition Half' ordinal='36' />
+                  <column datatype='real' name='Opposition Expected Goals from Set Pieces (6s)' ordinal='37' />
+                  <column datatype='integer' name='Opposition Goals' ordinal='38' />
+                  <column datatype='integer' name='Opposition Goals from Corners (6s)' ordinal='39' />
+                  <column datatype='integer' name='Opposition Goals from Set Pieces (6s)' ordinal='40' />
+                  <column datatype='real' name='Opposition Non-Penalty Expected Goals (Per Game)' ordinal='41' />
+                  <column datatype='real' name='Opposition Non-Penalty Expected Goals (Total)' ordinal='42' />
+                  <column datatype='integer' name='Opposition Number Of Possessions' ordinal='43' />
+                  <column datatype='integer' name='Opposition Number of Offsides' ordinal='44' />
+                  <column datatype='integer' name='Opposition Number of Possession Regains' ordinal='45' />
+                  <column datatype='integer' name='Opposition Number of Possession Regains in the Attacking Third' ordinal='46' />
+                  <column datatype='integer' name='Opposition Number of Possession Regains in the Mid-Third' ordinal='47' />
+                  <column datatype='integer' name='Opposition Number of Possession Regains in the Opposition Half' ordinal='48' />
+                  <column datatype='integer' name='Opposition Number of Possessions Ended in the Attacking Third' ordinal='49' />
+                  <column datatype='integer' name='Opposition Number of Possessions Started in the Defensive Third and Ended in the Attacking Third' ordinal='50' />
+                  <column datatype='integer' name='Opposition Open Play Goal from Outside Penalty Area' ordinal='51' />
+                  <column datatype='integer' name='Opposition Own Goal' ordinal='52' />
+                  <column datatype='real' name='Opposition Pressure Distance (Average)' ordinal='53' />
+                  <column datatype='integer' name='Games Played' ordinal='54' />
+                  <column datatype='integer' name='Opposition Red Cards' ordinal='55' />
+                  <column datatype='integer' name='Opposition Shots from Set Pieces (6s)' ordinal='56' />
+                  <column datatype='real' name='Opposition Time In Possession' ordinal='57' />
+                  <column datatype='integer' name='Opposition Yellow Cards' ordinal='58' />
+                  <column datatype='integer' name='Own Goal' ordinal='59' />
+                  <column datatype='real' name='Passes per minute in Possession' ordinal='60' />
+                  <column datatype='real' name='Penalty Area Entries via Crosses %' ordinal='61' />
+                  <column datatype='real' name='Possession %' ordinal='62' />
+                  <column datatype='real' name='Pressure Distance (Average)' ordinal='63' />
+                  <column datatype='real' name='Pressures in Attacking Third %' ordinal='64' />
+                  <column datatype='real' name='Pressures in Attacking Third per Opposition Pass' ordinal='65' />
+                  <column datatype='real' name='Pressures in Defensive Third per Opposition Pass' ordinal='66' />
+                  <column datatype='real' name='Pressures in Mid-Third per Opposition Pass' ordinal='67' />
+                  <column datatype='real' name='Pressures per Opposition Pass' ordinal='68' />
+                  <column datatype='real' name='Progressive Distance Via Passes %' ordinal='69' />
+                  <column datatype='integer' name='Red Cards' ordinal='70' />
+                  <column datatype='real' name='Reliance on Long Balls' ordinal='71' />
+                  <column datatype='integer' name='Sum of Shot (Free Kick Direct)' ordinal='72' />
+                  <column datatype='integer' name='Sum of Shot (Head)' ordinal='73' />
+                  <column datatype='real' name='Shot (Off Dribble)' ordinal='74' />
+                  <column datatype='integer' name='Sum of Shot (Off Target)' ordinal='75' />
+                  <column datatype='integer' name='Sum of Shot (On Target)' ordinal='76' />
+                  <column datatype='integer' name='Sum of Shot (Open Play from Outside Penalty Area)' ordinal='77' />
+                  <column datatype='integer' name='Sum of Shot (Open Play)' ordinal='78' />
+                  <column datatype='integer' name='Sum of Shot (Penalty)' ordinal='79' />
+                  <column datatype='integer' name='Sum of Shot (Post)' ordinal='80' />
+                  <column datatype='integer' name='Sum of Shot (Saved)' ordinal='81' />
+                  <column datatype='integer' name='Sum of Shot Assisting Pass' ordinal='82' />
+                  <column datatype='integer' name='Sum of Shot Under Pressure' ordinal='83' />
+                  <column datatype='integer' name='Sum of Shot from Direct Freekick' ordinal='84' />
+                  <column datatype='integer' name='Sum of Shot from Free Kick' ordinal='85' />
+                  <column datatype='integer' name='Sum of Shot from Goal Kick' ordinal='86' />
+                  <column datatype='integer' name='Sum of Shot from Keeper' ordinal='87' />
+                  <column datatype='integer' name='Sum of Shot from Regular Play' ordinal='88' />
+                  <column datatype='integer' name='Sum of Shot from Throw In' ordinal='89' />
+                  <column datatype='real' name='Shots From Counters (% of Total)' ordinal='90' />
+                  <column datatype='integer' name='Sum of Shots from Corners (6s)' ordinal='91' />
+                  <column datatype='integer' name='Sum of Shots from Counter' ordinal='92' />
+                  <column datatype='real' name='Shots from Outside Penalty Area (% of Total)' ordinal='93' />
+                  <column datatype='integer' name='Shots from Set Pieces (6s)' ordinal='94' />
+                  <column datatype='real' name='Successful Passes Per Opposition Pressure' ordinal='95' />
+                  <column datatype='real' name='Successful Passes per Possession' ordinal='96' />
+                  <column datatype='integer' name='Sum of Successful Pressures in the Attacking Third' ordinal='97' />
+                  <column datatype='integer' name='Sum of Successful Pressures in the Defensive Third' ordinal='98' />
+                  <column datatype='integer' name='Sum of Successful Pressures in the Mid-Third' ordinal='99' />
+                  <column datatype='integer' name='Sum of Switch Pass' ordinal='100' />
+                  <column datatype='integer' name='Sum of Switch Pass (Successful)' ordinal='101' />
+                  <column datatype='integer' name='Sum of Tackles' ordinal='102' />
+                  <column datatype='real' name='Tackles Won %' ordinal='103' />
+                  <column datatype='integer' name='Team Goals' ordinal='104' />
+                  <column datatype='real' name='Sum of Time In Possession' ordinal='105' />
+                  <column datatype='integer' name='Sum of Total Pass Distance' ordinal='106' />
+                  <column datatype='integer' name='Yellow Cards' ordinal='107' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Table Position'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet 1 (MLS 2023 Team Season Data)' name='federated.01fby531j8qpet16rh5zs04w4hkt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01fby531j8qpet16rh5zs04w4hkt'>
+            <column datatype='real' name='[Expected Goals Difference]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Goals Difference]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Match Points]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Expected Goals Difference]' derivation='Sum' name='[sum:Expected Goals Difference:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Goals Difference]' derivation='Sum' name='[sum:Goals Difference:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Match Points]' derivation='Sum' name='[sum:Match Points:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Match Points:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Match Points:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Expected Goals Difference:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Goals Difference:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Match Points:qk] + ([federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Goals Difference:qk] + [federated.01fby531j8qpet16rh5zs04w4hkt].[sum:Expected Goals Difference:qk]))</rows>
+        <cols>[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]</cols>
+      </table>
+      <simple-id uuid='{FA87F9F4-CE2B-4836-8881-7B17084508F3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Table Position' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='75750' id='8' name='Table Position' pane-specification-id='3' param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6500' id='9' name='Table Position' param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type-v2='highlighter' w='16000' x='83200' y='76750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6500' id='9' name='Table Position' param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type-v2='highlighter' w='16000' x='83200' y='76750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Table Position' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='75750' id='8' name='Table Position' pane-specification-id='3' param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C0434B97-298F-4C73-AE23-26C0896D8A7F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Table Position'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type='highlighter' />
+            <card pane-specification-id='3' param='[federated.01fby531j8qpet16rh5zs04w4hkt].[none:Team:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{094FEE65-1DA5-4762-A8AE-4AB174FDAF2F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Table Position'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{2A1FC94D-06CB-41CE-A946-9C5593D91C50}' />
+    </window>
+  </windows>
+</workbook>
